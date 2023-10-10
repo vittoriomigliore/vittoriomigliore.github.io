@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " it " }}">
+  {% include head.html %}
+  <body>
+    {% include navbar.html %}
+    <div class="wrapper">
+      <main aria-label="Content">
+        <div class="not-found">
+          <div class="container">
+              <div class="title">404</div>
+              <p class="phrase"> 🧙🏻‍♀️ What are you doing wandering the corridors at night? 🐍 </p>
+            <a class="solution" href="{{ site.url }}">Torna alla home</a>
+          </div>
+        </div>
+      </main>  
+      {% include footer.html %}
+    </div>
+  </body>
+</html>
